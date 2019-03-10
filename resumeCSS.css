@@ -1,13 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 .container {
-box-sizing: border-box;
-background-color: blue;
+color: #fff;
+background-color: #5995DA;  /* Blue */
+padding: 20px 0;
+display: flex;
+justify-content: center;
+
 }
 
 .middlebox {
+border: 1px solid #fff; /*for debugging*/
+width: 900px;
+height: 500px;
 display: flex;
-justify-content: center;
-vertical-align: center;
-height: 40%;
-widght: 40%;
-background-color: #FFF;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+/*background-color: #FFF;*/
+}
+
+.myTitles {
+	border: 1px solid #fff; /*debugging*/
+	display:flex;
+	justify-content: flex-end;
 }
