@@ -14,18 +14,64 @@ justify-content: center;
 }
 
 .middlebox {
-border: 1px solid #fff; /*for debugging*/
-width: 900px;
+border: 1px solid #000; /*for debugging*/
+width: 600px;
 height: 500px;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
 align-items: center;
-/*background-color: #FFF;*/
+background-color: #FFF;
+}
+
+.resumePhoto {
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
 }
 
 .myTitles {
-	border: 1px solid #fff; /*debugging*/
-	display:flex;
-	justify-content: flex-end;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border: 1px solid #000; /*debugging*/
+	
+}
+
+.myName {
+	font-size: 40px;
+	color: #000;
+}
+
+hr {
+	width: 70%;
+	color: #000;
+}
+
+.JobTitle{
+	font-size: 20px;
+	color: #000;
+}
+
+.links {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #000; /* dubug*/
+	justify-content: space-between;
+}
+
+.GitHubLogo {
+	width: 75px;
+	height: 75px;
+}
+
+.ResumeLogo {
+	width: 75px;
+	height: 80px;
+}
+
+.LinkedInLogo {
+	width: 75px;
+	height: 75px;
 }
