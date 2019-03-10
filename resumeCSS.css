@@ -1,0 +1,13 @@
+.container {
+box-sizing: border-box;
+background-color: blue;
+}
+
+.middlebox {
+display: flex;
+justify-content: center;
+vertical-align: center;
+height: 40%;
+widght: 40%;
+background-color: #FFF;
+}
