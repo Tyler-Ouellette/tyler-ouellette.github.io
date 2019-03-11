@@ -21,7 +21,7 @@ flex-grow: 1;
 }
 
 .middlebox {
-border: 1px solid #000; /*for debugging*/
+
 width: 600px;
 height: 500px;
 display: flex;
@@ -29,7 +29,7 @@ flex-direction: column;
 justify-content: space-around;
 align-items: center;
 background-color: #FFF;
-box-shadow: -10px 10px 50px -15px black; /* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
+box-shadow: -10px 10px 50px -10px black; /* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
 */
 }
 
