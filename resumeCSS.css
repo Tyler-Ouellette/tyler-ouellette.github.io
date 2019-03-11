@@ -29,7 +29,8 @@ flex-direction: column;
 justify-content: space-around;
 align-items: center;
 background-color: #FFF;
-box-shadow: -10px 10px 50px -10px black; /* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
+box-shadow: -10px 10px 50px -10px black; 
+/* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
 */
 }
 
