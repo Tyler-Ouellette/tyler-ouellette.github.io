@@ -45,7 +45,7 @@ box-shadow: -10px 10px 50px -15px black; /* x-value yvalue blur-radius (higher n
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	border: 1px solid #000; /*debugging*/
+	flex-grow: .2;
 	
 }
 
@@ -55,8 +55,8 @@ box-shadow: -10px 10px 50px -15px black; /* x-value yvalue blur-radius (higher n
 }
 
 hr {
-	width: 70%;
-	color: #000;
+	width: 80%;
+	border-color: #C0C0C0;
 }
 
 .JobTitle{
@@ -67,8 +67,8 @@ hr {
 .links {
 	display: flex;
 	flex-direction: row;
-	border: 1px solid #000; /* dubug*/
-	justify-content: space-between;
+	width: 70%;
+	justify-content: space-around;
 }
 
 .GitHubLogo {
