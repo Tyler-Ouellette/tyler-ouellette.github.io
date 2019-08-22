@@ -4,33 +4,35 @@
 	box-sizing: border-box;
 }
 
-.container, html, body {
-	height:100%;
+.container,
+html,
+body {
+	height: 100%;
 	margin: 0;
 }
 
 .container {
-color: #fff;
-background-color: #5995DA;  /* Blue */
-padding: 20px 0;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-grow: 1;
-
+	color: #fff;
+	background-color: #5995DA;
+	/* Blue */
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
 }
 
 .middlebox {
 
-width: 600px;
-height: 500px;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-background-color: #FFF;
-box-shadow: -10px 10px 50px -10px black; 
-/* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
+	width: 600px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFF;
+	box-shadow: -10px 10px 50px -10px black;
+	/* x-value yvalue blur-radius (higher number is more blur) spread radius (how far out to spread)
 */
 }
 
@@ -38,7 +40,7 @@ box-shadow: -10px 10px 50px -10px black;
 	border-radius: 50%;
 	height: 150px;
 	width: 150px;
-	box-shadow: 0px 0px 15px 0px black; 
+	box-shadow: 0px 0px 15px 0px black;
 }
 
 .myTitles {
@@ -47,7 +49,7 @@ box-shadow: -10px 10px 50px -10px black;
 	justify-content: space-around;
 	align-items: center;
 	flex-grow: .2;
-	
+
 }
 
 .myName {
@@ -60,7 +62,7 @@ hr {
 	border-color: #C0C0C0;
 }
 
-.JobTitle{
+.JobTitle {
 	font-size: 30px;
 	color: #000;
 }
