@@ -1,0 +1,135 @@
+\documentclass[a4paper,10.5pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} %for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+%\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage{fullpage}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+%\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{Arial}
+%%%
+
+%CV Sections inspired by: 
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Tyler {Ouellette}\\
+    \small{Phone:}     +1 (519) 995-6808\\
+    \small {Email:}     \href{mailto:ouell117@uwindsor.ca}{ouell117@uwindsor.ca}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Information
+\section{Personal Information}
+
+\begin{tabular}{ll}
+     {Website:} & \href{https://tylerouellette.dev}{https://tylerouellette.dev}\\
+     {LinkedIn:}     &\href{https://linkedin.com/in/tyler-ouellette14}{https://linkedin.com/in/tyler-ouellette14}\\
+     {GitHub:}     & \href{https://github.com/Tyler-Ouellette}{https://github.com/Tyler-Ouellette}\\
+     Recent Projects: & \href{https://dadjokes.myweb.cs.uwindsor.ca/index.php}{Dad Jokes Website}, \href{https://dadjokes.myweb.cs.uwindsor.ca/gridTest.html}{Periodic Table Using CSS Grid}
+     
+\end{tabular}
+
+%Programming Skills Section
+\section{Programming Skills}
+\begin{tabular}{rl}
+Basic Knowledge: &  Windows, Unix, Linux, Bash, Git, IntelliJ, LaTeX \\
+ 
+Intermediate Knowledge: & C, C++, Java, mySQL, HTML, CSS, PHP, JavaScript  \\
+
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{p{13cm}|l}	
+
+Bachelor of Computer Science for University Graduates, \textbf{University of Windsor} &  \small { {Current}} \\
+{Honours Applied Computing} &  \small{ {May 2018}} \\
+\normalsize  {Expected Graduation}: April 2020\\
+\small\emph{Windsor, Ontario} \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad \quad\quad\quad\quad\quad\quad\quad\quad\quad\quad\quad Major Average: 88\%
+\newline\\
+
+
+Bachelor of Human Kinetics, \normalsize\textbf{University of Windsor} & \small {2012 --}  \\
+{Honours Movement Science} & \small {2016} \\
+\small\emph{Windsor, Ontario}\\
+
+\end{tabular}
+
+
+%Section: Work Experience 
+\section{Work Experience}
+\begin{tabular}{p{13cm}|l}
+
+TPT at Fiat Chrysler, Windsor & \small{Current} \\
+
+  \footnotesize{
+  -- Working on the line in the paint department \newline
+  -- Able to maintain expected production across both Finesse and Sealer areas of the department\newline
+  -- Able to quickly and safely learn new jobs
+  } & \small  {June 2018}  \\\multicolumn{2}{c}{} \\
+
+Student Tutor, Windsor& \small {Sept 2018 --}  \\
+\footnotesize{
+-- Assisting young adults in learning new programming languages \newline
+-- Able to reiterate knowledge to a level that's easier understood to my students \newline
+-- Able to help teach students how to find a solution on their own
+} &\small {April 2019}  \\\multicolumn{2}{c}{} \\
+
+ 
+ Injury Management Consultant at {Kinetic Konnection}, Windsor& \small {Nov 2017 --}  \\
+ \footnotesize{
+ -- Understood the diagnosis of varying injuries and inform the client about the injuries. \newline
+ -- Provided options to manage and prevent reoccurring pains with bracing and therapy accessories \newline
+ -- Found the best treatment solution for the client \newline
+ -- Check for insurance and complete billing process
+ } & \small {June 2018}  \\\multicolumn{2}{c}{} \\
+
+Line Cook at  {Jose's Bar and Grill}, Windsor& \small {Aug 2015 --}  \\
+\footnotesize{
+-- Worked every position on the line in a high paced environment \newline
+-- Trained new employees on the kitchens functionality as well as cooking techniques \newline
+-- Maintained levels of expectation while multitasking up to 20 meals at a time \newline
+-- Ensuring everyone is at the same pace and each meal meets restaurants' standards
+} &\small {Oct 2017}  \\\multicolumn{2}{c}{} \\
+
+Manager at  {Arby's}, Windsor & \small {Oct 2013 --} \\
+\footnotesize{
+-- Key Holder \newline
+-- Managed staff scheduling, cash deposits and safe balancing \newline
+-- Supervised up to 9 staff members ensuring a successful shift \newline
+-- Handled customer feedback and/or concerns accordingly
+} &\small {Aug 2015}  \\\multicolumn{2}{c}{} \\
+
+%%
+%Staff at  {Arby's}, Windsor & \small {Sept 2011 --} \\
+%\footnotesize{-- Worked all positions in the store, promoted to manager at 19 years old. }& \small {Oct 2013} %\\\multicolumn{2}{c}{} \\
+%%
+
+\end{tabular}
+
+
+\end{document}
