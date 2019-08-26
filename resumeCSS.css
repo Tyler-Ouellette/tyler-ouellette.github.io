@@ -67,7 +67,14 @@ body {
 	width: 100%;
 }
 
+.right>h1 {
+	font-size: 42px;
+	color: #5995DA;
+}
 
+.right>h2 {
+	font-style: italic;
+}
 
 
 .resumePhoto {
