@@ -28,6 +28,7 @@ body {
 	width: 70%;
 	height: 70%;
 	min-height: 465px;
+	min-width: 875px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
