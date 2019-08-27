@@ -14,7 +14,8 @@ body {
 .container {
 
 	background-color: #5995DA;
-	/* Blue */
+	/* background-color: linear-gradient(205deg, #166ad2, #a8e4dd); */
+	background: linear-gradient(135deg, #5995DA 0%, #A8E4DD 59%, #C5BB7C 100%);
 	padding: 20px 0;
 	display: flex;
 	justify-content: center;
